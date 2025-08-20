@@ -1,0 +1,18 @@
+2025-08-20T16:11:53.542439-0300 | INFO | Chamando função 'extrair_dados_e_consolidar' com args=('data',) e kwargs={} | utils_log.py | Matheus
+2025-08-20T16:11:53.548438-0300 | INFO | Função 'extrair_dados_e_consolidar' retornou             Produto    Categoria  Quantidade  Venda        Data
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15 | utils_log.py | Matheus
+2025-08-20T16:11:53.550521-0300 | INFO | Chamando função 'calcular_kpi_de_total_de_vendas' com args=(            Produto    Categoria  Quantidade  Venda        Data
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15,) e kwargs={} | utils_log.py | Matheus
+2025-08-20T16:11:53.553310-0300 | INFO | Função 'calcular_kpi_de_total_de_vendas' retornou             Produto    Categoria  Quantidade  Venda        Data  Total
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15   4500
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15    300
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15    500 | utils_log.py | Matheus
+2025-08-20T16:11:53.555309-0300 | INFO | Chamando função 'carregar_dados' com args=(            Produto    Categoria  Quantidade  Venda        Data  Total
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15   4500
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15    300
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15    500,) e kwargs={'format_saida': ['csv', 'parquet']} | utils_log.py | Matheus
+2025-08-20T16:11:53.599201-0300 | INFO | Função 'carregar_dados' retornou None | utils_log.py | Matheus
